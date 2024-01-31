@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "hitguess"
+version = "0.1.0"
+description = "DIY version of Hitster"
+authors = ["Robin de Rooij"]
+license = "AGPL-3.0-or-later"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+spotipy = "^2.23.0"
+segno = "^1.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
