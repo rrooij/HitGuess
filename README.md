@@ -4,6 +4,8 @@ Simple clone of the HitSter game in which players guess a song, its artist and t
 
 This means that you can make a lot of variations for different kind of audiences. Want to play with your kpop loving friends? Generate a card game with a kpop playlist! Want to keep it at the more general hits? Use the default Dutch playlist.
 
+Example of the generated HTML (it still has to automatically align when printing and get to fit everything on A4): https://hitguess.pages.dev/ 
+
 ## Running
 
 Be sure to install the dependencies with `poetry` and run `python3 hitguess/main.py [playlist_id]`
